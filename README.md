@@ -1,21 +1,12 @@
-![React Logo](https://github.com/vercel/vercel/blob/master/packages/frameworks/logos/react.svg)
+# Dev-Diet 
+## To see in action visit... https://dev-diet.vercel.app/
 
-# React Example
+### To run app, clone download, run 'npm install'
 
-This directory is a brief example of a [React](https://reactjs.org/) app with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction) that can be deployed with Vercel and zero configuration.
+### Make sure to go to https://developer.edamam.com/ and get an API ID, and API KEY, then change line 7 and line 8 of App.js and replace with YOUR APP ID and API KEY
 
-## Deploy Your Own
+### Now you can run npm start to view app on your local machine
 
-Deploy your own React project, along with Serverless Functions, with Vercel.
+### If you are considering adapting this Project:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/examples/create-react-app-functions)
-
-_Live Example: https://create-react-app.now-examples.now.sh/_
-
-### How We Created This Example
-
-To get started with React, along with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction), with Vercel, you can use the [Create-React-App CLI](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) to initialize the project:
-
-```shell
-$ npx create-react-app my-app
-```
+- You will need to replace the dev.png file with your own image (since it is personalized), or you can leave it out
