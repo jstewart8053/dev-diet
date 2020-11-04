@@ -20,12 +20,12 @@
   font-family: "Julius Sans One", sans-serif;
   background-image: url(dev.png);
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
 }
 
-/* intro class added for the inital image and the text inside */
+/* intro class added for the initial image and the text inside */
 
 .intro > h1 {
   font-size: 5em;
@@ -60,22 +60,27 @@
 
 /* 
   Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 1500px) {
   .intro {
     width: 100%;
     height: 500px;
-    position: relative;
+    align-self: flex-start;
     transform: scale(1);
     font-size: 14px;
   }
 
   .intro > h1 {
     font-size: 4em;
+    margin-top: 100px;
+    margin-left: 50px;
     transform: translateX(0px);
+    align-self: flex-start;
   }
   .intro > h6 {
     font-size: 2em;
     transform: translateX(0px);
+
+    align-self: flex-start;
   }
 }
 
